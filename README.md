@@ -1,4 +1,4 @@
 Magitech
 ========
 
-The repository for my ModJam mod, Magitech
+The repository for my Mod, Magitech
