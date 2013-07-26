@@ -1,4 +1,4 @@
-package flabs.mods.magitech.fluid;
+package flabs.mods.magitech.client;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
@@ -23,6 +23,6 @@ public class MagiColor {
         if(percent < 0 || percent >100){
             throw new IllegalArgumentException("The Percentage must be between 0 and 100 (inclusive)");
         }
-        return rbg[(rbg.length*percent)/100];
+        return rbg[percent];
     }
 }
